@@ -1,0 +1,5157 @@
+
+153
++if .not.collimat
+     154
+     +if bignblz
+     157
+     +ei
+     158
+     +if .not.bignblz
+     161
+     +ei
+162
++ei
+
+163
++if collimat
+     164
+     +if beamgas
+     167
+     +ei
+     168
+     +if .not.beamgas
+     171
+     +ei
+172
++ei
+
+1419
++if fio
+     1420
+     +if crlibm
+     1422
+     +ei
+     1424
+     +if crlibm
+     1426
+     +ei
+1427
++ei
+
+1428
++if .not.fio
+     1429
+     +if .not.crlibm
+     1431
+     +ei
+     1432
+     +if crlibm
+     1447
+     +ei
+1448
++ei
+
+4275
++if .not.tilt
+     4276
+     +if crlibm
+     4286
+     +ei
+     4287
+     +if .not.crlibm
+     4297
+     +ei
+4298
++ei
+
+4299
++if tilt
+     4300
+     +if crlibm
+     4310
+     +ei
+     4311
+     +if .not.crlibm
+     4321
+     +ei
+4322
++ei
+
+4352
++if .not.tilt
+     4353
+     +if crlibm
+     4365
+     +ei
+     4366
+     +if .not.crlibm
+     4378
+     +ei
+4379
++ei
+
+4380
++if tilt
+     4381
+     +if crlibm
+     4393
+     +ei
+     4394
+     +if .not.crlibm
+     4406
+     +ei
+4407
++ei
+
+4431
++if .not.tilt
+     4432
+     +if crlibm
+     4440
+     +ei
+     4441
+     +if .not.crlibm
+     4449
+     +ei
+4450
++ei
+
+4451
++if tilt
+     4452
+     +if crlibm
+     4460
+     +ei
+     4461
+     +if .not.crlibm
+     4471
+     +ei
+4472
++ei
+
+4502
++if .not.tilt
+     4503
+     +if crlibm
+     4517
+     +ei
+     4518
+     +if .not.crlibm
+     4532
+     +ei
+4533
++ei
+
+4534
++if tilt
+     4535
+     +if crlibm
+     4549
+     +ei
+     4550
+     +if .not.crlibm
+     4564
+     +ei
+4565
++ei
+
+4589
++if .not.tilt
+     4590
+     +if crlibm
+     4600
+     +ei
+     4601
+     +if .not.crlibm
+     4610
+     +ei
+4611
++ei
+
+4612
++if tilt
+     4613
+     +if crlibm
+     4622
+     +ei
+     4623
+     +if .not.crlibm
+     4632
+     +ei
+4633
++ei
+
+4664
++if .not.tilt
+     4665
+     +if crlibm
+     4683
+     +ei
+     4684
+     +if .not.crlibm
+     4702
+     +ei
+4703
++ei
+
+4704
++if tilt
+     4705
+     +if crlibm
+     4723
+     +ei
+     4724
+     +if .not.crlibm
+     4742
+     +ei
+4743
++ei
+
+4768
++if .not.tilt
+     4769
+     +if crlibm
+     4780
+     +ei
+     4781
+     +if .not.crlibm
+     4792
+     +ei
+4793
++ei
+
+4794
++if tilt
+     4795
+     +if crlibm
+     4806
+     +ei
+     4807
+     +if .not.crlibm
+     4818
+     +ei
+4819
++ei
+
+4853
++if .not.tilt
+     4856
+     +if crlibm
+     4862
+     +ei
+     4863
+     +if .not.crlibm
+     4869
+     +ei
+     4873
+     +if crlibm
+     4878
+     +ei
+     4879
+     +if .not.crlibm
+     4884
+     +ei
+     4888
+     +if crlibm
+     4895
+     +ei
+     4896
+     +if .not.crlibm
+     4902
+     +ei
+4905
++ei
+
+4906
++if tilt
+     4916
+     +if crlibm
+     4922
+     +ei
+     4923
+     +if .not.crlibm
+     4929
+     +ei
+     4931
+     +if crlibm
+     4937
+     +ei
+     4938
+     +if .not.crlibm
+     4944
+     +ei
+     4948
+     +if crlibm
+     4953
+     +ei
+     4954
+     +if .not.crlibm
+     4959
+     +ei
+     4961
+     +if crlibm
+     4966
+     +ei
+     4967
+     +if .not.crlibm
+     4972
+     +ei
+     4976
+     +if crlibm
+     4982
+     +ei
+     4983
+     +if .not.crlibm
+     4989
+     +ei
+     4991
+     +if crlibm
+     4997
+     +ei
+     4998
+     +if .not.crlibm
+     5004
+     +ei
+5007
++ei
+
+6695
++if .not.tilt
+     6696
+     +if time
+     6703
+     +ei
+     6704
+     +if .not.time
+     6707
+     +ei
+6708
++ei
+
+6709
++if tilt
+     6710
+     +if time
+     6723
+     +ei
+     6724
+     +if .not.time
+     6729
+     +ei
+6730
++ei
+
+7299
++if cr
+     7300
+     +if .not.boinc
+     7304
+     +ei
+     7305
+     +if boinc
+     7309
+     +ei
+7310
++ei
+
+7338
++if crlibm
+     7341
+     +if .not.boinc
+     7343
+     +ei 
+     7344
+     +if boinc
+     7348
+     +ei
+     7371
+     +if .not.boinc
+     7374
+     +ei
+     7375
+     +if boinc 
+     7378
+     +ei
+7379
++ei
+
+7380
++if .not.crlibm
+     7381
+     +if .not.boinc
+     7383
+     +ei
+     7384
+     +if boinc
+     7387
+     +ei
+7393
++ei
+
+7394
++if cr
+     7395
+     +if .not.boinc
+     7398
+     +ei
+     7399
+     +if boinc
+     7402
+     +ei
+7404
++ei
+
+7425
++if crlibm
+     7428
+     +if .not.boinc
+     7430
+     +ei
+     7431
+     +if boinc
+     7435
+     +ei
+     7463
+     +if .not.boinc
+     7466
+     +ei
+     7467
+     +if boinc
+     7470
+     +ei
+7471
++ei
+
+7472
++if .not.crlibm
+     7473
+     +if .not.boinc
+     7475
+     +ei
+     7476
+     +if boinc
+     7479
+     +ei
+7482
++ei
+
+7846
++if cr
+     7847
+     +if debug
+     7851
+     +ei
+7852
++ei
+
+8797
++if boinc
+     8799
+     +if fio
+     8802
+     +ei
+     8803
+     +if .not.fio
+     8805
+     +ei
+8806
++ei
+
+8807
++if .not.boinc
+     8808
+     +if fio
+     8811
+     +ei
+     8812
+     +if .not.fio
+     8814
+     +ei
+8815
++ei
+
+8816
++if boinc
+     8818
+     +if fio
+     8821
+     +ei
+     8822
+     +if .not.fio
+     8824
+     +ei
+8825
++ei
+
+8826
++if .not.boinc
+     8827
+     +if fio
+     8830
+     +ei
+     8831
+     +if .not.fio
+     8833
+     +ei
+8834
++ei
+
+8842
++if nagfor
+     8843
+     +if boinc
+     8846
+     +ei
+     8847
+     +if .not.boinc
+     8849
+     +ei
+8850
++ei
+
+8851
++if .not.nagfor
+     8852
+     +if boinc
+     8855
+     +ei
+     8856
+     +if .not.boinc
+     8858
+     +ei
+8859
++ei
+
+8860
++if boinc
+     8862
+     +if fio
+     8865
+     +ei
+     8866
+     +if .not.fio
+     8868
+     +ei
+8869
++ei
+
+8870
++if .not.boinc
+     8871
+     +if fio
+     8874
+     +ei
+     8875
+     +if .not.fio
+     8877
+     +ei
+8878
++ei
+
+8889
++if bnlelens
+     8890
+     +if nagfor
+          8891
+          +if boinc
+               8894
+               +if fio
+               8896
+               +ei
+          8898
+          +ei
+     8899
+     +ei
+     8900
+     +if .not.nagfor
+          8901
+          +if boinc
+               8903
+               +if fio
+               8906
+               +ei
+               8907
+               +if .not.fio
+               8909
+               +ei
+          8910
+          +ei
+     8911
+     +ei
+8912
++ei
+
+8913
++if boinc
+     8915
+     +if fio
+     8918
+     +ei
+     8919
+     +if .not.fio
+     8921
+     +ei
+8922
++ei
+
+8923
++if .not.boinc
+     8924
+     +if fio
+     8927
+     +ei
+     8928
+     +if .not.fio
+     8930
+     +ei
+8931
++ei
+
+8932
++if boinc
+     8934
+     +if fio
+     8937
+     +ei
+     8938
+     +if .not.fio
+     8940
+     +ei
+8941
++ei
+
+8942
++if .not.boinc
+     8943
+     +if fio
+     8946
+     +ei
+     8947
+     +if .not.fio
+     8949
+     +ei
+8950
++ei
+
+8951
++if boinc
+     8953
+     +if fio
+     8956
+     +ei
+     8957
+     +if .not.fio
+     8959
+     +ei
+8960
++ei
+
+8961
++if .not.boinc
+     8962
+     +if fio
+     8965
+     +ei
+     8966
+     +if .not.fio
+     8968
+     +ei
+8969
++ei
+
+8970
++if boinc
+     8972
+     +if fio
+     8975
+     +ei
+     8976
+     +if .not.fio
+     8978
+     +ei
+8979
++ei
+
+8980
++if .not.boinc
+     8981
+     +if fio
+     8984
+     +ei
+     8985
+     +if .not.fio
+     8987
+     +ei
+8988
++ei
+
+8989
++if boinc
+     8991
+     +if fio
+     8994
+     +ei
+     8995
+     +if .not.fio
+     8997
+     +ei
+8998
++ei
+
+8999
++if .not.boinc
+     9000
+     +if fio
+     9003
+     +ei
+     9004
+     +if .not.fio
+     9006
+     +ei
+9007
++ei
+
+9008
++if boinc
+     9010
+     +if fio
+     9013
+     +ei
+     9014
+     +if .not.fio
+     9016
+     +ei
+9017
++ei
+
+9018
++if .not.boinc
+     9019
+     +if fio
+     9022
+     +ei
+     9023
+     +if .not.fio
+     9025
+     +ei
+9026
++ei
+
+9027
++if boinc
+     9029
+     +if fio
+     9032
+     +ei
+     9033
+     +if .not.fio
+     9035
+     +ei
+9036
++ei
+
+9037
++if .not.boinc
+     9038
+     +if fio
+     9041
+     +ei
+     9042
+     +if .not.fio
+     9044
+     +ei
+9045
++ei
+
+9046
++if boinc
+     9048
+     +if fio
+     9051
+     +ei
+     9052
+     +if .not.fio
+     9054
+     +ei
+9055
++ei
+
+9056
++if .not.boinc
+     9057
+     +if fio
+     9060
+     +ei
+     9061
+     +if .not.fio
+     9063
+     +ei
+9064
++ei
+
+9065
++if boinc
+     9067
+     +if fio
+     9070
+     +ei
+     9071
+     +if .not.fio
+     9073
+     +ei
+9074
++ei
+
+9075
++if .not.boinc
+     9076
+     +if fio
+     9079
+     +ei
+     9080
+     +if .not.fio
+     9082
+     +ei
+9083
++ei
+
+9084
++if boinc
+     9086
+     +if fio
+     9089
+     +ei
+     9090
+     +if .not.fio
+     9092
+     +ei
+9093
++ei
+
+9094
++if .not.boinc
+     9095
+     +if fio
+     9098
+     +ei
+     9099
+     +if .not.fio
+     9101
+     +ei
+9102
++ei
+
+9103
++if boinc
+     9105
+     +if fio
+     9108
+     +ei
+     9109
+     +if .not.fio
+     9111
+     +ei
+9112
++ei
+
+9113
++if .not.boinc
+     9114
+     +if fio
+     9117
+     +ei
+     9118
+     +if .not.fio
+     9120
+     +ei
+9121
++ei
+
+9122
++if boinc
+     9124
+     +if fio
+     9127
+     +ei
+     9128
+     +if .not.fio
+     9130
+     +ei
+9131
++ei
+
+9132
++if .not.boinc
+     9133
+     +if fio
+     9136
+     +ei
+     9137
+     +if .not.fio
+     9139
+     +ei
+9140
++ei
+
+9141
++if boinc
+     9143
+     +if fio
+     9146
+     +ei
+     9147
+     +if .not.fio
+     9149
+     +ei
+9150
++ei
+
+9151
++if .not.boinc
+     9152
+     +if fio
+     9155
+     +ei
+     9156
+     +if .not.fio
+     9158
+     +ei
+9159
++ei
+
+9160
++if boinc
+     9162
+     +if fio
+     9165
+     +ei
+     9166
+     +if .not.fio
+     9168
+     +ei
+9169
++ei
+
+9170
++if .not.boinc
+     9171
+     +if fio
+     9174
+     +ei
+     9175
+     +if .not.fio
+     9177
+     +ei
+9178
++ei
+
+9179
++if boinc
+     9181
+     +if fio
+     9184
+     +ei
+     9185
+     +if .not.fio
+     9187
+     +ei
+9188
++ei
+
+9189
++if .not.boinc
+     9190
+     +if fio
+     9193
+     +ei
+     9194
+     +if .not.fio
+     9196
+     +ei
+9197
++ei
+
+9198
++if boinc
+     9200
+     +if fio
+     9203
+     +ei
+     9204
+     +if .not.fio
+     9206
+     +ei
+9207
++ei
+
+9208
++if .not.boinc
+     9209
+     +if fio
+     9212
+     +ei
+     9213
+     +if .not.fio
+     9215
+     +ei
+9216
++ei
+
+9217
++if boinc
+     9219
+     +if fio
+     9222
+     +ei
+     9223
+     +if .not.fio
+     9225
+     +ei
+9226
++ei
+
+9227
++if .not.boinc
+     9228
+     +if fio
+     9231
+     +ei
+     9232
+     +if .not.fio
+     9234
+     +ei
+9235
++ei
+
+9236
++if boinc
+     9238
+     +if fio
+     9241
+     +ei
+     9242
+     +if .not.fio
+     9244
+     +ei
+9245
++ei
+
+9246
++if .not.boinc
+     9247
+     +if fio
+     9250
+     +ei
+     9251
+     +if .not.fio
+     9253
+     +ei
+9254
++ei
+
+9255
++if boinc
+     9257
+     +if fio
+     9260
+     +ei
+     9261
+     +if .not.fio
+     9263
+     +ei
+9264
++ei
+
+9265
++if .not.boinc
+     9266
+     +if fio
+     9269
+     +ei
+     9270
+     +if .not.fio
+     9272
+     +ei
+9273
++ei
+
+9274
++if boinc
+     9276
+     +if fio
+     9279
+     +ei
+     9280
+     +if .not.fio
+     9282
+     +ei
+9283
++ei
+
+9284
++if .not.boinc
+     9285
+     +if fio
+     9288
+     +ei
+     9289
+     +if .not.fio
+     9291
+     +ei
+9292
++ei
+
+9293
++if boinc
+     9295
+     +if fio
+     9298
+     +ei
+     9299
+     +if .not.fio
+     9301
+     +ei
+9302
++ei
+
+9303
++if .not.boinc
+     9304
+     +if fio
+     9307
+     +ei
+     9308
+     +if .not.fio
+     9310
+     +ei
+9311
++ei
+
+9319
++if boinc
+     9321
+     +if fio
+     9324
+     +ei
+     9325
+     +if .not.fio
+     9327
+     +ei
+9328
++ei
+
+9329
++if .not.boinc
+     9330
+     +if fio
+     9333
+     +ei
+     9334
+     +if .not.fio
+     9336
+     +ei
+9337
++ei
+
+9338
++if boinc
+     9340
+     +if fio
+     9343
+     +ei
+     9344
+     +if .not.fio
+     9346
+     +ei
+9347
++ei
+
+9348
++if .not.boinc
+     9349
+     +if fio
+     9352
+     +ei
+     9353
+     +if .not.fio
+     9355
+     +ei
+9356
++ei
+
+9357
++if boinc
+     9359
+     +if fio
+     9362
+     +ei
+     9363
+     +if .not.fio
+     9365
+     +ei
+9366
++ei
+
+9367
++if .not.boinc
+     9368
+     +if fio
+     9371
+     +ei
+     9372
+     +if .not.fio
+     9374
+     +ei
+9375
++ei
+
+9376
++if .not.bnlelens
+     9377
+     +if boinc
+     9380
+     +ei
+     9381
+     +if .not.boinc
+     9383
+     +ei
+     9384
+     +if boinc
+     9387
+     +ei
+     9388
+     +if .not.boinc
+     9390
+     +ei
+     9391
+     +if boinc
+     9394
+     +ei
+     9395
+     +if .not.boinc
+     9397
+     +ei
+     9398
+     +if boinc
+     9401
+     +ei
+     9402
+     +if .not.boinc
+     9404
+     +ei
+     9405
+     +if boinc
+     9408
+     +ei
+     9409
+     +if .not.boinc
+     9411
+     +ei
+     9412
+     +if boinc
+     9415
+     +ei
+     9416
+     +if .not.boinc
+     9418
+     +ei
+     9419
+     +if boinc
+     9422
+     +ei
+     9423
+     +if .not.boinc
+     9425
+     +ei
+     9426
+     +if boinc
+     9429
+     +ei
+     9430
+     +if .not.boinc
+     9432
+     +ei
+     9433
+     +if boinc
+     9436
+     +ei
+     9437
+     +if .not.boinc
+     9439
+     +ei
+     9440
+     +if boinc
+     9443
+     +ei
+     9444
+     +if .not.boinc
+     9446
+     +ei
+     9447
+     +if boinc
+     9450
+     +ei
+     9451
+     +if .not.boinc
+     9453
+     +ei
+     9454
+     +if boinc
+     9457
+     +ei
+     9458
+     +if .not.boinc
+     9460
+     +ei
+     9461
+     +if boinc
+     9464
+     +ei
+     9465
+     +if .not.boinc
+     9467
+     +ei
+     9468
+     +if boinc
+     9471
+     +ei
+     9472
+     +if .not.boinc
+     9474
+     +ei
+     9475
+     +if boinc
+     9478
+     +ei
+     9479
+     +if .not.boinc
+     9481
+     +ei
+     9482
+     +if boinc
+     9485
+     +ei
+     9486
+     +if .not.boinc
+     9488
+     +ei
+     9489
+     +if boinc
+     9492
+     +ei
+     9493
+     +if .not.boinc
+     9495
+     +ei
+     9496
+     +if boinc
+     9499
+     +ei
+     9500
+     +if .not.boinc
+     9502
+     +ei
+     9503
+     +if boinc
+     9506
+     +ei
+     9507
+     +if .not.boinc
+     9509
+     +ei
+     9510
+     +if boinc
+     9513
+     +ei
+     9514
+     +if .not.boinc
+     9516
+     +ei
+     9517
+     +if boinc
+     9520
+     +ei
+     9521
+     +if .not.boinc
+     9523
+     +ei
+     9524
+     +if boinc
+     9527
+     +ei
+     9528
+     +if .not.boinc
+     9530
+     +ei
+     9531
+     +if boinc
+     9534
+     +ei
+     9535
+     +if .not.boinc
+     9537
+     +ei
+     9538
+     +if boinc
+     9541
+     +ei
+     9542
+     +if .not.boinc
+     9544
+     +ei
+     9545
+     +if boinc
+     9548
+     +ei
+     9549
+     +if .not.boinc
+     9551
+     +ei
+     9552
+     +if boinc
+     9555
+     +ei
+     9556
+     +if .not.boinc
+     9558
+     +ei
+     9559
+     +if boinc
+     9562
+     +ei
+     9563
+     +if .not.boinc
+     9565
+     +ei
+     9566
+     +if boinc
+     9569
+     +ei
+     9570
+     +if .not.boinc
+     9572
+     +ei
+     9573
+     +if boinc
+     9576
+     +ei
+     9577
+     +if .not.boinc
+     9579
+     +ei
+     9580
+     +if boinc
+     9583
+     +ei
+     9584
+     +if .not.boinc
+     9586
+     +ei
+     9587
+     +if boinc
+     9590
+     +ei
+     9591
+     +if .not.boinc
+     9593
+     +ei
+     9594
+     +if boinc
+     9597
+     +ei
+     9598
+     +if .not.boinc
+     9600
+     +ei
+9601
++ei
+
+9609
++if bnlelens
+     9612
+     +if cr
+          9614
+          +if .not.boinc
+               9615
+               +if fio
+               9617
+               +ei
+               9618
+               +if .not.fio
+               9620
+               +ei
+          9621
+          +ei
+     9622
+     +ei
+     9623
+     +if .not.cr
+          9624
+          +if .not.boinc
+               9625
+               +if fio
+               9627
+               +ei
+               9628
+               +if .not.fio
+               9630
+               +ei
+          9631
+          +ei
+     9632
+     +ei
+     9633
+     +if cr
+          9634
+          +if .not.boinc
+               9635
+               +if fio
+               9637
+               +ei
+               9638
+               +if .not.fio
+               9640
+               +ei
+          9641
+          +ei
+     9642
+     +ei
+     9643
+     +if .not.cr
+          9644
+          +if fio
+          9647
+          +ei
+          9648
+          +if .not.fio
+          9650
+          +ei
+     9651
+     +ei
+     9652
+     +if cr
+          9653
+          +if .not.boinc
+               9654
+               +if fio
+               9656
+               +ei
+               9657
+               +if .not.fio
+               9659
+               +ei
+          9660
+          +ei
+     9661
+     +ei
+     9662
+     +if .not.cr
+          9663
+          +if fio
+          9666
+          +ei
+          9667
+          +if .not.fio
+          9669
+          +ei
+     9670
+     +ei
+     9671
+     +if cr
+          9672
+          +if boinc
+               9674
+               +if fio
+               9676
+               +ei
+               9677
+               +if .not.fio
+               9679
+               +ei
+          9680
+          +ei
+     9681
+     +ei
+     9682
+     +if .not.boinc
+          9683
+          +if fio
+          9685
+          +ei
+          9686
+          +if .not.fio
+          9688
+          +ei
+     9689
+     +ei
+     9690
+     +if .not.cr
+          9691
+          +if fio
+          9694
+          +ei
+          9695
+          +if .not.fio
+          9697
+          +ei
+     9698
+     +ei
+     9699
+     +if cr
+          9700
+          +if .not.boinc
+               9701
+               +if fio
+               9703
+               +ei
+               9704
+               +if .not.fio
+               9706
+               +ei
+          9707
+          +ei
+     9708
+     +ei
+     9709
+     +if .not.cr
+          9710
+          +if fio
+          9712
+          +ei
+          9713
+          +if .not.fio
+          9715
+          +ei
+     9716
+     +ei
+9719
++ei
+
+9724
++if debug
+     9726
+     +if boinc
+     9731
+     +ei
+     9732
+     +if .not.boinc
+     9735
+     +ei
+9736
++ei
+
+9908
++if hhp
+     9911
+     +if cr
+     9913
+     +ei
+     9914
+     +if crlibm
+     9916
+     +ei
+9919
++ei
+
+10064
++if bnlelens
+     10067
+     +if .not.boinc
+     10076
+     +ei
+10081
++ei
+
+13575
++if fio
+     13576
+     +if crlibm
+     13578
+     +ei
+     13581
+     +if crlibm
+     13583
+     +ei
+13584
++ei
+
+13585
++if .not.fio
+     13586
+     +if .not.crlibm
+     13590
+     +ei
+     13591
+     +if crlibm
+     13632
+     +ei
+13633
++ei
+
+13734
++if fio
+     13735
+     +if crlibm
+     13737
+     +ei
+     13740
+     +if crlibm
+     13742
+     +ei
+13743
++ei
+
+13744
++if .not.fio
+     13745
+     +if .not.crlibm
+     13747
+     +ei
+     13748
+     +if crlibm
+     13770
+     +ei
+13771
++ei
+
+13976
++if fio
+     13977
+     +if crlibm
+     13979
+     +ei
+     13982
+     +if crlibm
+     13984
+     +ei
+13985
++ei
+
+13986
++if .not.fio
+     13987
+     +if .not.crlibm
+     13989
+     +ei
+     13990
+     +if crlibm
+     14012
+     +ei
+14013
++ei
+
+14016
++if fio
+     14017
+     +if crlibm
+     14019
+     +ei
+     14022
+     +if crlibm
+     14024
+     +ei
+14025
++ei
+
+14026
++if .not.fio
+     14027
+     +if .not.crlibm
+     14029
+     +ei
+     14030
+     +if crlibm
+     14038
+     +ei
+14039
++ei
+
+14040
++if fio
+     14041
+     +if crlibm
+     14043
+     +ei
+     14046
+     +if crlibm
+     14048
+     +ei
+14049
++ei
+
+14050
++if .not.fio
+     14051
+     +if .not.crlibm
+     14053
+     +ei
+     14054
+     +if crlibm
+     14062
+     +ei
+14063
++ei
+
+14064
++if fio
+     14065
+     +if crlibm
+     14067
+     +ei
+     14070
+     +if crlibm
+     14072
+     +ei
+14073
++ei
+
+14074
++if .not.fio
+     14075
+     +if .not.crlibm
+     14077
+     +ei
+     14078
+     +if crlibm
+     14086
+     +ei
+14087
++ei
+
+14088
++if fio
+     14089
+     +if crlibm
+     14091
+     +ei
+     14094
+     +if crlibm
+     14096
+     +ei
+14097
++ei
+
+14098
++if .not.fio
+     14099
+     +if .not.crlibm
+     14101
+     +ei
+     14102
+     +if crlibm
+     14110
+     +ei
+14111
++ei
+
+14112
++if fio
+     14113
+     +if crlibm
+     14115
+     +ei
+     14118
+     +if crlibm
+     14120
+     +ei
+14121
++ei
+
+14122
++if .not.fio
+     14123
+     +if .not.crlibm
+     14125
+     +ei
+     14126
+     +if crlibm
+     14134
+     +ei
+14135
++ei
+
+14136
++if fio
+     14137
+     +if crlibm
+     14139
+     +ei
+     14142
+     +if crlibm
+     14144
+     +ei
+14145
++ei
+
+14146
++if .not.fio
+     14147
+     +if .not.crlibm
+     14149
+     +ei
+     14150
+     +if crlibm
+     14158
+     +ei
+14159
++ei
+
+14160
++if fio
+     14161
+     +if crlibm
+     14163
+     +ei
+     14166
+     +if crlibm
+     14168
+     +ei
+14169
++ei
+
+14170
++if .not.fio
+     14171
+     +if .not.crlibm
+     14173
+     +ei
+     14174
+     +if crlibm
+     14182
+     +ei
+14183
++ei
+
+14184
++if fio
+     14185
+     +if crlibm
+     14187
+     +ei
+     14190
+     +if crlibm
+     14192
+     +ei
+14193
++ei
+
+14194
++if .not.fio
+     14195
+     +if .not.crlibm
+     14197
+     +ei
+     14198
+     +if crlibm
+     14206
+     +ei
+14207
++ei
+
+14208
++if fio
+     14209
+     +if crlibm
+     14211
+     +ei
+     14214
+     +if crlibm
+     14216
+     +ei
+14217
++ei
+
+14218
++if .not.fio
+     14219
+     +if .not.crlibm
+     14221
+     +ei
+     14222
+     +if crlibm
+     14230
+     +ei
+14231
++ei
+
+14232
++if fio
+     14233
+     +if crlibm
+     14235
+     +ei
+     14238
+     +if crlibm
+     14240
+     +ei
+14241
++ei
+
+14242
++if .not.fio
+     14243
+     +if .not.crlibm
+     14245
+     +ei
+     14246
+     +if crlibm
+     14254
+     +ei
+14255
++ei
+
+14256
++if fio
+     14257
+     +if crlibm
+     14259
+     +ei
+     14262
+     +if crlibm
+     14264
+     +ei
+14265
++ei
+
+14266
++if .not.fio
+     14267
+     +if .not.crlibm
+     14269
+     +ei
+     14270
+     +if crlibm
+     14278
+     +ei
+14279
++ei
+
+14280
++if fio
+     14281
+     +if crlibm
+     14283
+     +ei
+     14286
+     +if crlibm
+     14288
+     +ei
+14289
++ei
+
+14290
++if .not.fio
+     14291
+     +if .not.crlibm
+     14293
+     +ei
+     14294
+     +if crlibm
+     14302
+     +ei
+14303
++ei
+
+14304
++if fio
+     14305
+     +if crlibm
+     14307
+     +ei
+     14310
+     +if crlibm
+     14312
+     +ei
+14313
++ei
+
+14314
++if .not.fio
+     14315
+     +if .not.crlibm
+     14317
+     +ei
+     14318
+     +if crlibm
+     14326
+     +ei
+14327
++ei
+
+14328
++if fio
+     14329
+     +if crlibm
+     14331
+     +ei
+     14334
+     +if crlibm
+     14336
+     +ei
+14337
++ei
+
+14338
++if .not.fio
+     14339
+     +if .not.crlibm
+     14341
+     +ei
+     14342
+     +if crlibm
+     14350
+     +ei
+14351
++ei
+
+14352
++if fio
+     14353
+     +if crlibm
+     14355
+     +ei
+     14358
+     +if crlibm
+     14360
+     +ei
+14361
++ei
+
+14362
++if .not.fio
+     14363
+     +if .not.crlibm
+     14365
+     +ei
+     14366
+     +if crlibm
+     14374
+     +ei
+14375
++ei
+
+14394
++if fio
+     14395
+     +if crlibm
+     14397
+     +ei
+     14401
+     +if crlibm
+     14403
+     +ei
+14404
++ei
+
+14405
++if .not.fio
+     14406
+     +if .not.crlibm
+     14411
+     +ei
+     14412
+     +if crlibm
+     14464
+     +ei
+14465
++ei
+
+14466
++if fio
+     14467
+     +if crlibm
+     14469
+     +ei
+     14472
+     +if crlibm
+     14474
+     +ei
+14475
++ei
+
+14479
++if fio
+     14480
+     +if crlibm
+     14482
+     +ei
+     14486
+     +if crlibm
+     14488
+     +ei
+14489
++ei
+
+14522
++if fio
+     14523
+     +if crlibm
+     14525
+     +ei
+     14528
+     +if crlibm
+     14530
+     +ei
+14531
++ei
+
+14532
++if .not.fio
+     14533
+     +if .not.crlibm
+     14535
+     +ei
+     14536
+     +if crlibm
+     14558
+     +ei
+14559
++ei
+
+14636
++if fio
+     14637
+     +if crlibm
+     14639
+     +ei
+     14642
+     +if crlibm
+     14644
+     +ei
+14645
++ei
+
+14646
++if .not.fio
+     14647
+     +if .not.crlibm
+     14649
+     +ei
+     14650
+     +if crlibm
+     14666
+     +ei
+14667
++ei
+
+14668
++if fio
+     14669
+     +if crlibm
+     14671
+     +ei
+     14674
+     +if crlibm
+     14676
+     +ei
+14677
++ei
+
+14678
++if .not.fio
+     14679
+     +if .not.crlibm
+     14681
+     +ei
+     14682
+     +if crlibm
+     14694
+     +ei
+14695
++ei
+
+14731
++if fio
+     14732
+     +if crlibm
+     14734
+     +ei
+     14737
+     +if crlibm
+     14739
+     +ei
+14740
++ei
+
+14741
++if .not.fio
+     14742
+     +if .not.crlibm
+     14744
+     +ei
+     14745
+     +if crlibm
+     14759
+     +ei
+14760
++ei
+
+14770
++if fio
+     14771
+     +if crlibm
+     14773
+     +ei
+     14776
+     +if crlibm
+     14778
+     +ei
+14779
++ei
+
+14780
++if .not.fio
+     14781
+     +if .not.crlibm
+     14783
+     +ei
+     14784
+     +if crlibm
+     14796
+     +ei
+14797
++ei
+
+14798
++if fio
+     14799
+     +if crlibm
+     14801
+     +ei
+     14804
+     +if crlibm
+     14806
+     +ei
+14807
++ei
+
+14808
++if .not.fio
+     14809
+     +if .not.crlibm
+     14811
+     +ei
+     14812
+     +if crlibm
+     14824
+     +ei
+14825
++ei
+
+14832
++if fio
+     14833
+     +if crlibm
+     14835
+     +ei
+     14838
+     +if crlibm
+     14840
+     +ei
+14841
++ei
+
+14878
++if fio
+     14879
+     +if crlibm
+     14881
+     +ei
+     14884
+     +if crlibm
+     14886
+     +ei
+14887
++ei
+
+14888
++if .not.fio
+     14889
+     +if .not.crlibm
+     14891
+     +ei
+     14892
+     +if crlibm
+     14918
+     +ei
+14919
++ei
+
+14954
++if fio
+     14955
+     +if crlibm
+     14957
+     +ei
+     14960
+     +if crlibm
+     14962
+     +ei
+14963
++ei
+
+14964
++if .not.fio
+     14965
+     +if .not.crlibm
+     14967
+     +ei
+     14968
+     +if crlibm
+     15004
+     +ei
+15005
++ei
+
+15006
++if fio
+     15007
+     +if crlibm
+     15009
+     +ei
+     15012
+     +if crlibm
+     15014
+     +ei
+15015
++ei
+
+15016
++if .not.fio
+     15017
+     +if .not.crlibm
+     15019
+     +ei
+     15020
+     +if crlibm
+     15032
+     +ei
+15033
++ei
+
+15139
++if fio
+     15140
+     +if crlibm
+     15142
+     +ei
+     15145
+     +if crlibm
+     15147
+     +ei
+15148
++ei
+
+15149
++if .not.fio
+     15150
+     +if .not.crlibm
+     15152
+     +ei
+     15153
+     +if crlibm
+     15167
+     +ei
+15168
++ei
+
+15206
++if fio
+     15207
+     +if crlibm
+     15209
+     +ei
+     15212
+     +if crlibm
+     15214
+     +ei
+15215
++ei
+
+15216
++if .not.fio
+     15217
+     +if .not.crlibm
+     15219
+     +ei
+     15220
+     +if crlibm
+     15238
+     +ei
+15239
++ei
+
+15279
++if fio
+     15280
+     +if crlibm
+     15282
+     +ei
+     15285
+     +if crlibm
+     15287
+     +ei
+15288
++ei
+
+15403
++if fio
+     15404
+     +if crlibm
+     15406
+     +ei
+     15449
+     +if crlibm
+     15451
+     +ei
+15452
++ei
+
+15453
++if .not.fio
+     15454
+     +if .not.crlibm
+     15495
+     +ei
+     15496
+     +if crlibm
+     15560
+     +ei
+15561
++ei
+
+15603
++if time
+     15605
+     +if cr
+     15607
+     +ei
+     15608
+     +if .not.cr
+     15610
+     +ei
+     15611
+     +if cr
+     15613
+     +ei
+     15614
+     +if .not.cr
+     15616
+     +ei
+     15618
+     +if cr
+     15620
+     +ei
+     15621
+     +if .not.cr
+     15623
+     +ei
+     15643
+     +if fio
+          15644
+          +if crlibm
+          15646
+          +ei
+          15649
+          +if crlibm
+          15651
+          +ei
+     15652
+     +ei
+     15653
+     +if .not.fio
+          15654
+          +if .not.crlibm
+          15656
+          +ei
+          15657
+          +if crlibm
+          15667
+          +ei
+     15668
+     +ei
+     15671
+     +if fio
+          15672
+          +if crlibm
+          15674
+          +ei
+          15729
+          +if crlibm
+          15731
+          +ei
+     15732
+     +ei
+     15733
+     +if .not.fio
+          15734
+          +if .not.crlibm
+          15775
+          +ei
+          15776
+          +if crlibm
+          15840
+          +ei
+     15841
+     +ei
+     15864
+     +if cr
+     15866
+     +ei
+     15867
+     +if .not.cr
+     15869
+     +ei
+     15871
+     +if cr
+     15873
+     +ei
+     15874
+     +if .not.cr
+     15876
+     +ei
+15878
++ei
+
+15921
++if fio
+     15922
+     +if crlibm
+     15924
+     +ei
+     15927
+     +if crlibm
+     15929
+     +ei
+15930
++ei
+
+15931
++if .not.fio
+     15932
+     +if .not.crlibm
+     15934
+     +ei
+     15935
+     +if crlibm
+     15959
+     +ei
+15960
++ei
+
+16020
++if fio
+     16021
+     +if crlibm
+     16023
+     +ei
+     16026
+     +if crlibm
+     16028
+     +ei
+16029
++ei
+
+16090
++if fio
+     16091
+     +if crlibm
+     16093
+     +ei
+     16096
+     +if crlibm
+     16098
+     +ei
+16099
++ei
+
+16215
++if fio
+     16216
+     +if crlibm
+     16218
+     +ei
+     16221
+     +if crlibm
+     16223
+     +ei
+16224
++ei
+
+16225
++if .not.fio
+     16226
+     +if .not.crlibm
+     16228
+     +ei
+     16229
+     +if crlibm
+     16244
+     +ei
+16245
++ei
+
+16246
++if fio
+     16247
+     +if crlibm
+     16249
+     +ei
+     16252
+     +if crlibm
+     16254
+     +ei
+16255
++ei
+
+16256
++if .not.fio
+     16257
+     +if .not.crlibm
+     16259
+     +ei
+     16260
+     +if crlibm
+     16276
+     +ei
+16277
++ei
+
+16282
++if .not.fio
+     16283
+     +if .not.crlibm
+     16285
+     +ei
+     16286
+     +if crlibm
+     16302
+     +ei
+16303
++ei
+
+16304
++if fio
+     16305
+     +if crlibm
+     16307
+     +ei
+     16310
+     +if crlibm
+     16312
+     +ei
+16313
++ei
+
+16314
++if .not.fio
+     16315
+     +if .not.crlibm
+     16317
+     +ei
+     16318
+     +if crlibm
+     16342
+     +ei
+16343
++ei
+
+16363
++if fio
+     16364
+     +if crlibm
+     16366
+     +ei
+     16369
+     +if crlibm
+     16371
+     +ei
+16372
++ei
+
+16374
++if .not.fio
+     16375
+     +if .not.crlibm
+     16377
+     +ei
+     16378
+     +if crlibm
+     16396
+     +ei
+16397
++ei
+
+16431
++if fio
+     16432
+     +if crlibm
+     16434
+     +ei
+     16437
+     +if crlibm
+     16439
+     +ei
+16440
++ei
+
+16441
++if .not.fio
+     16442
+     +if .not.crlibm
+     16444
+     +ei
+     16445
+     +if crlibm
+     16463
+     +ei
+16464
++ei
+
+16532
++if fio
+     16533
+     +if crlibm
+     16535
+     +ei
+     16538
+     +if crlibm
+     16540
+     +ei
+16541
++ei
+
+16542
++if .not.fio
+     16543
+     +if .not.crlibm
+     16545
+     +ei
+     16546
+     +if crlibm
+     16562
+     +ei
+16563
++ei
+
+16618
++if fio
+     16619
+     +if crlibm
+     16621
+     +ei
+     16624
+     +if crlibm
+     16626
+     +ei
+16627
++ei
+
+16628
++if .not.fio
+     16629
+     +if .not.crlibm
+     16631
+     +ei
+     16632
+     +if crlibm
+     16663
+     +ei
+16664
++ei
+
+16700
++if fio
+     16701
+     +if crlibm
+     16703
+     +ei
+     16706
+     +if crlibm
+     16708
+     +ei
+16709
++ei
+
+16710
++if .not.fio
+     16711
+     +if .not.crlibm
+     16713
+     +ei
+     16714
+     +if crlibm
+     16736
+     +ei
+16737
++ei
+
+16758
++if fio
+     16759
+     +if crlibm
+     16761
+     +ei
+     16764
+     +if crlibm
+     16766
+     +ei
+16767
++ei
+
+16768
++if .not.fio
+     16769
+     +if .not.crlibm
+     16771
+     +ei
+     16772
+     +if crlibm
+     16796
+     +ei
+16797
++ei
+
+16825
++if fio
+     16826
+     +if crlibm
+     16828
+     +ei
+     16831
+     +if crlibm
+     16833
+     +ei
+16834
++ei
+
+16835
++if .not.fio
+     16836
+     +if .not.crlibm
+     16838
+     +ei
+     16839
+     +if crlibm
+     16861
+     +ei
+16862
++ei
+
+16868
++if fio
+     16869
+     +if crlibm
+     16871
+     +ei
+     16874
+     +if crlibm
+     16876
+     +ei
+16877
++ei
+
+16927
++if fio
+     16928
+     +if crlibm
+     16930
+     +ei
+     16934
+     +if crlibm
+     16936
+     +ei
+16937
++ei
+
+16938
++if .not.fio
+     16939
+     +if .not.crlibm
+     16942
+     +ei
+     16943
+     +if crlibm
+     16990
+     +ei
+16991
++ei
+
+16992
++if fio
+     16993
+     +if crlibm
+     16995
+     +ei
+     16998
+     +if crlibm
+     17000
+     +ei
+17001
++ei
+
+17002
++if .not.fio
+     17003
+     +if .not.crlibm
+     17005
+     +ei
+     17006
+     +if crlibm
+     17042
+     +ei
+17043
++ei
+
+17044
++if fio
+     17045
+     +if crlibm
+     17047
+     +ei
+     17051
+     +if crlibm
+     17053
+     +ei
+17054
++ei
+
+17134
++if fio
+     17135
+     +if crlibm
+     17137
+     +ei
+     17140
+     +if crlibm
+     17142
+     +ei
+17143
++ei
+
+17144
++if .not.fio
+     17145
+     +if .not.crlibm
+     17147
+     +ei
+     17148
+     +if crlibm
+     17158
+     +ei
+17159
++ei
+
+17185
++if .not.collimat
+     17186
+     +if cr
+     17188
+     +ei
+     17189
+     +if .not.cr
+     17191
+     +ei
+     17192
+     +if cr
+     17194
+     +ei
+     17195
+     +if .not.cr
+     17197
+     +ei
+     17198
+     +if cr
+     17200
+     +ei
+     17201
+     +if .not.cr
+     17203
+     +ei
+     17204
+     +if cr
+     17206
+     +ei
+     17207
+     +if .not.cr
+     17209
+     +ei
+17215
++ei
+
+17216
++if collimat
+     17224
+     +if fio
+     17227
+     +ei
+     17228
+     +if .not.fio
+     17230
+     +ei
+     17231
+     +if fio
+     17234
+     +ei
+     17235
+     +if .not.fio
+     17237
+     +ei
+     17239
+     +if fio
+     17242
+     +ei
+     17243
+     +if .not.fio
+     17245
+     +ei
+     17246
+     +if fio
+     17249
+     +ei
+     17250
+     +if .not.fio
+     17252
+     +ei
+     17256
+     +if fio
+     17259
+     +ei
+     17260
+     +if .not.fio
+     17262
+     +ei
+     17263
+     +if fio
+     17266
+     +ei
+     17267
+     +if .not.fio
+     17269
+     +ei
+     17270
+     +if fio
+     17273
+     +ei
+     17274
+     +if .not.fio
+     17276
+     +ei
+     17283
+     +if fio
+     17285
+     +ei
+     17286
+     +if .not.fio
+     17288
+     +ei
+     17291
+     +if fio
+     17294
+     +ei
+     17295
+     +if .not.fio
+     17297
+     +ei
+     17298
+     +if fio
+     17301
+     +ei
+     17302
+     +if .not.fio
+     17304
+     +ei
+     17307
+     +if fio
+     17310
+     +ei
+     17311
+     +if .not.fio
+     17313
+     +ei
+     17315
+     +if fio
+     17318
+     +ei
+     17319
+     +if .not.fio
+     17321
+     +ei
+     17323
+     +if fio
+     17326
+     +ei
+     17327
+     +if .not.fio
+     17329
+     +ei
+     17330
+     +if fio
+     17333
+     +ei
+     17334
+     +if .not.fio
+     17336
+     +ei
+     17338
+     +if fio
+     17341
+     +ei
+     17342
+     +if .not.fio
+     17344
+     +ei
+     17346
+     +if fio
+     17349
+     +ei
+     17350
+     +if .not.fio
+     17352
+     +ei
+     17354
+     +if fio
+     17357
+     +ei
+     17358
+     +if .not.fio
+     17360
+     +ei
+     17365
+     +if fio
+     17367
+     +ei
+     17368
+     +if .not.fio
+     17370
+     +ei
+     17374
+     +if fio
+     17377
+     +ei
+     17378
+     +if .not.fio
+     17380
+     +ei
+     17382
+     +if fio
+     17384
+     +ei
+     17385
+     +if .not.fio
+     17387
+     +ei
+     17389
+     +if fio
+     17391
+     +ei
+     17392
+     +if .not.fio
+     17394
+     +ei
+     17397
+     +if fio
+     17400
+     +ei
+     17401
+     +if .not.fio
+     17403
+     +ei
+     17404
+     +if fio
+     17407
+     +ei
+     17408
+     +if .not.fio
+     17410
+     +ei
+     17413
+     +if fio
+     17416
+     +ei
+     17417
+     +if .not.fio
+     17419
+     +ei
+     17423
+     +if fio
+     17426
+     +ei
+     17427
+     +if .not.fio
+     17429
+     +ei
+     17433
+     +if fio
+     17436
+     +ei
+     17437
+     +if .not.fio
+     17439
+     +ei
+     17440
+     +if fio
+     17443
+     +ei
+     17444
+     +if .not.fio
+     17446
+     +ei
+     17449
+     +if fio
+     17452
+     +ei
+     17453
+     +if .not.fio
+     17455
+     +ei
+     17458
+     +if fio
+     17461
+     +ei
+     17462
+     +if .not.fio
+     17464
+     +ei
+     17466
+     +if fio
+     17469
+     +ei
+     17470
+     +if .not.fio
+     17472
+     +ei
+17479
++ei
+
+17556
++if fio
+     17557
+     +if crlibm
+     17559
+     +ei
+     17562
+     +if crlibm
+     17564
+     +ei
+17565
++ei
+
+17595
++if fio
+     17596
+     +if crlibm
+     17598
+     +ei
+     17601
+     +if crlibm
+     17603
+     +ei
+17604
++ei
+
+17605
++if .not.fio
+     17606
+     +if .not.crlibm
+     17609
+     +ei
+     17610
+     +if crlibm
+     17634
+     +ei
+17635
++ei
+
+17669
++if fio
+     17670
+     +if crlibm
+     17672
+     +ei
+     17675
+     +if crlibm
+     17677
+     +ei
+17678
++ei
+
+17679
++if .not.fio
+     17680
+     +if .not.crlibm
+     17682
+     +ei
+     17683
+     +if crlibm
+     17721
+     +ei
+17722
++ei
+
+17747
++if fio
+     17748
+     +if crlibm
+     17750
+     +ei
+     17753
+     +if crlibm
+     17755
+     +ei
+17756
++ei
+
+17757
++if .not.fio
+     17758
+     +if .not.crlibm
+     17760
+     +ei
+     17761
+     +if crlibm
+     17783
+     +ei
+17784
++ei
+
+17849
++if fio
+     17850
+     +if crlibm
+     17852
+     +ei
+     17855
+     +if crlibm
+     17857
+     +ei
+17858
++ei
+
+17859
++if .not.fio
+     17860
+     +if .not.crlibm
+     17862
+     +ei
+     17863
+     +if crlibm
+     17877
+     +ei
+17878
++ei
+
+17889
++if fio
+     17890
+     +if crlibm
+     17892
+     +ei
+     17896
+     +if crlibm
+     17898
+     +ei
+17899
++ei
+
+17900
++if .not.fio
+     17901
+     +if .not.crlibm
+     17904
+     +ei
+     17905
+     +if crlibm
+     17919
+     +ei
+17920
++ei
+
+18772
++if iibm
+     18775
+     +if cr
+     18777
+     +ei
+     18778
+     +if crlibm
+     18780
+     +ei
+18784
++ei
+
+19370
++if crlibm
+     19460
+     +if cr
+     19462
+     +ei
+     19468
+     +if .not.cr
+     19477
+     +ei
+     19478
+     +if cr
+     19487
+     +ei
+     19495
+     +if cr
+     19497
+     +ei
+     19501
+     +if .not.cr
+     19520
+     +ei
+     19521
+     +if cr
+     19540
+     +ei
+     19550
+     +if cr
+     19552
+     +ei
+     19566
+     +if cr
+     19569
+     +ei
+     19570
+     +if .not.cr
+     19573
+     +ei
+19705
++ei
+
+20969
++if nagfor
+     20970
+     +if boinc
+     20973
+     +ei
+     20974
+     +if .not.boinc
+     20976
+     +ei
+20977
++ei
+
+20978
++if .not.nagfor
+     20979
+     +if boinc
+     20982
+     +ei
+     20983
+     +if .not.boinc
+     20985
+     +ei
+20986
++ei
+
+21370
++if tilt
+     21371
+     +if crlibm
+     21373
+     +ei
+     21374
+     +if .not.crlibm
+     21376
+     +ei
+21377
++ei
+
+21386
++if tilt
+     21387
+     +if crlibm
+     21389
+     +ei
+     21390
+     +if .not.crlibm
+     21392
+     +ei
+21393
++ei
+
+24677
++if cr
+     24695
+     +if debug
+     24697
+     +ei
+     24698
+     +if boinc
+     24700
+     +ei
+     24703
+     +if boinc
+     24706
+     +ei
+     24707
+     +if .not.boinc
+     24709
+     +ei
+     24713
+     +if boinc
+          24715
+          +if fio
+          24718
+          +ei
+          24719
+          +if .not.fio
+          24721
+          +ei
+     24722
+     +ei
+     24723
+     +if .not.boinc
+          24724
+          +if fio
+          24727
+          +ei
+          24728
+          +if .not.fio
+          24730
+          +ei
+     24731
+     +ei
+     24733
+     +if boinc
+          24735
+          +if fio
+          24738
+          +ei
+          24739
+          +if .not.fio
+          24741
+          +ei
+     24742
+     +ei
+     24743
+     +if .not.boinc
+          24744
+          +if fio
+          24747
+          +ei
+          24748
+          +if .not.fio
+          24750
+          +ei
+     24751
+     +ei
+     24756
+     +if boinc
+     24762
+     +ei
+     24767
+     +if boinc
+          24769
+          +if fio
+          24772
+          +ei
+          24773
+          +if .not.fio
+          24775
+          +ei
+     24778
+     +ei
+     24779
+     +if .not.boinc
+          24780
+          +if fio
+          24783
+          +ei
+          24784
+          +if .not.fio
+          24786
+          +ei
+     24789
+     +ei
+     24792
+     +if boinc
+          24810
+          +if fio
+          24813
+          +ei
+          24814
+          +if .not.fio
+          24816
+          +ei
+     24819
+     +ei
+     24820
+     +if .not.boinc
+          24821
+          +if fio
+          24824
+          +ei
+          24825
+          +if .not.fio
+          24827
+          +ei
+     24830
+     +ei
+     24832
+     +if boinc
+     24835
+     +ei
+     24836
+     +if .not.boinc
+     24838
+     +ei
+     24841
+     +if boinc
+     24844
+     +ei
+     24845
+     +if .not.boinc
+     24847
+     +ei
+     24848
+     +if boinc
+     24851
+     +ei
+     24852
+     +if .not.boinc
+     24854
+     +ei
+     24857
+     +if boinc
+     24860
+     +ei
+     24861
+     +if .not.boinc
+     24863
+     +ei
+     24864
+     +if boinc
+          24866
+          +if fio
+          24869
+          +ei
+          24870
+          +if .not.fio
+          24872
+          +ei
+     24873
+     +ei
+     24874
+     +if .not.boinc
+          24875
+          +if fio
+          24878
+          +ei
+          24879
+          +if .not.fio
+          24881
+          +ei
+     24882
+     +ei
+24884
++ei
+
+25121
++if cr
+     25123
+     +if debug
+     25125
+     +ei
+25127
++ei
+
+25166
++if nagfor
+     25167
+     +if boinc
+          25168
+          +if .not.bnlelens
+               25171
+               +if fio
+               25173
+               +ei
+          25175
+          +ei
+     25176
+     +ei
+     25177
+     +if .not.boinc
+          25179
+          +if fio
+          25181
+          +ei
+     25183
+     +ei
+25184
++ei
+
+25187
++if .not.nagfor
+     25188
+     +if boinc
+          25189
+          +if .not.bnlelens
+               25191
+               +if fio
+               25194
+               +ei
+               25195
+               +if .not.fio
+               25197
+               +ei
+          25198
+          +ei
+     25199
+     +ei
+     25200
+     +if .not.boinc
+          25201
+          +if fio
+          25204
+          +ei
+          25205
+          +if .not.fio
+          25207
+          +ei
+     25208
+     +ei
+25209
++ei
+
+26059
++if bnlelens
+     26062
+     +if cr
+     26068
+     +ei
+     26069
+     +if .not.cr
+     26075
+     +ei
+26078
++ei
+
+26107
++if bnlelens
+     26110
+     +if cr
+     26116
+     +ei
+     26117
+     +if .not.cr
+     26123
+     +ei
+26126
++ei
+
+26604
++if nagfor
+     26605
+     +if boinc
+          26606
+          +if .not.bnlelens
+               26609
+               +if fio
+               26611
+               +ei
+          26613
+          +ei
+     26614
+     +ei
+     26615
+     +if .not.boinc
+          26617
+          +if fio
+          26619
+          +ei
+     26621
+     +ei
+26622
++ei
+
+26624
++if .not.nagfor
+     26625
+     +if boinc
+          26626
+          +if .not.bnlelens
+               26628
+               +if fio
+               26631
+               +ei
+               26632
+               +if .not.fio
+               26634
+               +ei
+          26635
+          +ei
+     26636
+     +ei
+     26638
+     +if .not.boinc
+          26639
+          +if fio
+          26642
+          +ei
+          26643
+          +if .not.fio
+          26645
+          +ei
+     26646
+     +ei
+26647
++ei
+
+26693
++if debug
+     26694
+     +if cr
+     26697
+     +ei
+     26698
+     +if .not.cr
+     26700
+     +ei
+26701
++ei
+
+26757
++if .not.tilt
+     26758
+     +if cr
+     26761
+     +ei
+     26762
+     +if .not.cr
+     26765
+     +ei
+26766
++ei
+
+26767
++if tilt
+     26768
+     +if cr
+     26771
+     +ei
+     26772
+     +if .not.cr
+     26775
+     +ei
+26776
++ei
+
+27323
++if collimat
+     27326
+     +if cr
+     27342
+     +ei
+     27343
+     +if .not.cr
+     27361
+     +ei
+     27382
+     +if cr
+     27390
+     +ei
+     27391
+     +if .not.cr
+     27402
+     +ei
+     27403
+     +if cr
+     27410
+     +ei
+     27411
+     +if .not.cr
+     27418
+     +ei
+     27419
+     +if cr
+     27433
+     +ei
+     27434
+     +if .not.cr
+     27448
+     +ei
+     27461
+     +if cr
+     27463
+     +ei
+     27464
+     +if .not.cr
+     27466
+     +ei
+     27468
+     +if cr
+     27470
+     +ei
+     27471
+     +if .not.cr
+     27473
+     +ei
+     27494
+     +if cr
+     27506
+     +ei
+     27507
+     +if .not.cr
+     27519
+     +ei
+     27533
+     +if cr
+     27535
+     +ei
+     27536
+     +if .not.cr
+     27538
+     +ei
+     27539
+     +if cr
+     27564
+     +ei
+     27565
+     +if .not.cr
+     27592
+     +ei
+     27595
+     +if cr
+     27621
+     +ei
+     27623
+     +if .not.cr
+     27649
+     +ei
+     27654
+     +if cr
+     27703
+     +ei
+     27704
+     +if .not.cr
+     27763
+     +ei
+     27769
+     +if cr
+     27773
+     +ei
+     27774
+     +if .not.cr
+     27778
+     +ei
+     27796
+     +if cr
+     27798
+     +ei
+     27799
+     +if .not.cr
+     27802
+     +ei
+     27835
+     +if cr
+     27838
+     +ei
+     27839
+     +if .not.cr
+     27842
+     +ei
+     27853
+     +if cr
+     27856
+     +ei
+     27857
+     +if .not.cr
+     27860
+     +ei
+     27940
+     +if cr
+     27942
+     +ei
+     27943
+     +if .not.cr
+     27945
+     +ei
+     28225
+     +if cr
+     28230
+     +ei
+     28231
+     +if .not.cr
+     28235
+     +ei
+     28305
+     +if cr
+     28307
+     +ei
+     28308
+     +if .not.cr
+     28310
+     +ei
+     28314
+     +if cr
+     28316
+     +ei
+     28317
+     +if .not.cr
+     28319
+     +ei
+     28320
+     +if cr
+     28322
+     +ei
+     28323
+     +if .not.cr
+     28325
+     +ei
+     28328
+     +if cr
+     28330
+     +ei
+     28331
+     +if .not.cr
+     28333
+     +ei
+     28335
+     +if cr
+     28337
+     +ei
+     28338
+     +if .not.cr
+     28340
+     +ei
+     28343
+     +if cr
+     28345
+     +ei
+     28346
+     +if .not.cr
+     28348
+     +ei
+     28350
+     +if cr
+     28352
+     +ei
+     28353
+     +if .not.cr
+     28355
+     +ei
+     28361
+     +if cr
+     28363
+     +ei
+     28364
+     +if .not.cr
+     28366
+     +ei
+     28369
+     +if cr
+     28371
+     +ei
+     28372
+     +if .not.cr
+     28374
+     +ei
+     28377
+     +if cr
+     28379
+     +ei
+     28380
+     +if .not.cr
+     28382
+     +ei
+     28386
+     +if cr
+     28388
+     +ei
+     28389
+     +if .not.cr
+     28391
+     +ei
+     28395
+     +if cr
+     28397
+     +ei
+     28398
+     +if .not.cr
+     28400
+     +ei
+     28422
+     +if cr
+     28424
+     +ei
+     28425
+     +if .not.cr
+     28427
+     +ei
+     28445
+     +if cr
+     28447
+     +ei
+     28448
+     +if .not.cr
+     28450
+     +ei
+     28470
+     +if cr
+     28472
+     +ei
+     28473
+     +if .not.cr
+     28475
+     +ei
+28652
++ei ! endif collimat
+
+28653
++if .not.collimat
+     28654
+     +if cr
+     28658
+     +ei
+     28659
+     +if .not.cr
+     28663
+     +ei
+28667
++ei
+
+29277
++if collimat
+     29338
+     +if beamgas
+     29341
+     +ei
+     29342
+     +if .not.cr
+     29380
+     +ei
+     29381
+     +if cr
+     29401
+     +ei
+29805
++ei
+
+29994
++if .not.collimat
+     29996
+     +if debug
+     30002
+     +ei
+30011
++ei
+
+30032
++if collimat
+     30262
+     +if cr
+     30264
+     +ei
+     30265
+     +if .not.cr
+     30267
+     +ei
+     30287
+     +if crlibm
+     30289
+     +ei
+     30290
+     +if .not.crlibm
+     30292
+     +ei
+     30294
+     +if crlibm
+     30296
+     +ei
+     30297
+     +if .not.crlibm
+     30299
+     +ei
+     30422
+     +if crlibm
+     30424
+     +ei
+     30425
+     +if .not.crlibm
+     30427
+     +ei
+     30428
+     +if crlibm
+     30430
+     +ei
+     30431
+     +if .not.crlibm
+     30433
+     +ei
+     30439
+     +if crlibm
+     30442
+     +ei
+     30443
+     +if .not.crlibm
+     30446
+     +ei
+     30449
+     +if crlibm
+     30452
+     +ei
+     30453
+     +if .not.crlibm
+     30456
+     +ei
+     30460
+     +if crlibm
+     30463
+     +ei
+     30464
+     +if .not.crlibm
+     30467
+     +ei
+     30522
+     +if crlibm
+     30525
+     +ei
+     30526
+     +if .not.crlibm
+     30529
+     +ei
+     30547
+     +if crlibm
+     30551
+     +ei
+     30552
+     +if .not.crlibm
+     30555
+     +ei
+     30565
+     +if crlibm
+     30569
+     +ei
+     30570
+     +if .not.crlibm
+     30573
+     +ei
+     30989
+     +if cr
+     30993
+     +ei
+     30994
+     +if .not.cr
+     30998
+     +ei
+     31116
+     +if cr
+     31118
+     +ei
+     31119
+     +if .not.cr
+     31121
+     +ei
+     31123
+     +if cr
+     31127
+     +ei
+     31128
+     +if .not.cr
+     31132
+     +ei
+     31432
+     +if hdf5
+     31448
+     +ei
+     31449
+     +if .not.hdf5
+     31459
+     +ei
+     31541
+     +if hdf5
+     31568
+     +ei
+     31569
+     +if .not.hdf5
+     31587
+     +ei
+     31727
+     +if cr
+     31730
+     +ei
+     31731
+     +if .not.cr
+     31736
+     +ei
+     31737
+     +if cr
+     31739
+     +ei
+     31740
+     +if .not.cr
+     31742
+     +ei
+     31762
+     +if cr
+     31764
+     +ei
+     31765
+     +if .not.cr
+     31767
+     +ei
+     31770
+     +if cr
+     31772
+     +ei
+     31773
+     +if .not.cr
+     31775
+     +ei
+     31778
+     +if cr
+     31780
+     +ei
+     31781
+     +if .not.cr
+     31783
+     +ei
+     31786
+     +if cr
+     31788
+     +ei
+     31789
+     +if .not.cr
+     31791
+     +ei
+     31794
+     +if cr
+     31796
+     +ei
+     31797
+     +if .not.cr
+     31799
+     +ei
+     31914
+     +if rvet
+     31920
+     +ei
+     31921
+     +if fast
+     31924
+     +ei
+     31925
+     +if .not.fast.and..not.rvet
+     31928
+     +ei
+32024
++ei
+
+32469
++if collimat
+     32600
+     +if hdf5
+     32614
+     +ei
+     32615
+     +if .not.hdf5
+     32624
+     +ei
+32680
++ei
+
+32706
++if collimat
+     32925
+     +if crlibm
+     32927
+     +ei
+     32928
+     +if .not.crlibm
+     32930
+     +ei
+     32931
+     +if crlibm
+     32933
+     +ei
+     32934
+     +if .not.crlibm
+     32936
+     +ei
+     32937
+     +if crlibm
+     32939
+     +ei
+     32940
+     +if .not.crlibm
+     32942
+     +ei
+     32953
+     +if crlibm
+     32955
+     +ei
+     32956
+     +if .not.crlibm
+     32958
+     +ei
+     32959
+     +if crlibm
+     32961
+     +ei
+     32962
+     +if .not.crlibm
+     32964
+     +ei
+     32965
+     +if crlibm
+     32967
+     +ei
+     32968
+     +if .not.crlibm
+     32970
+     +ei
+     33044
+     +if cr
+     33046
+     +ei
+     33047
+     +if .not.cr
+     33049
+     +ei
+     33226
+     +if hdf5
+     33240
+     +ei
+     33241
+     +if .not.hdf5  
+     33251
+     +ei
+33278
++ei
+
+33936
++if cr
+     33948
+     +if .not.debug
+     33950
+     +ei
+     33955
+     +if .not.debug
+     33957
+     +ei
+33959
++ei
+
+33960
++if cr
+     33961
+     +if .not.debug
+     33963
+     +ei
+     33964
+     +if bnlelens
+     33974
+     +ei
+     33975
+     +if .not.bnlelens
+     33979
+     +ei
+     33980
+     +if .not.debug
+     33982
+     +ei
+33983
++ei
+
+34064
++if cr
+     34065
+     +if .not.bnlelens
+          34067
+          +if .not.debug
+          34069
+          +ei
+          34073
+          +if .not.debug
+          34075
+          +ei
+     34076
+     +ei
+     34077
+     +if bnlelens
+          34082
+          +if .not.debug
+          34084
+          +ei
+          34088
+          +if .not.debug
+          34090
+          +ei
+     34094
+     +ei
+34099
++ei
+
+34145
++if cr
+     34156
+     +if .not.debug
+     34158
+     +ei
+     34163
+     +if .not.debug
+     34165
+     +ei
+     34167
+     +if boinc
+     34177
+     +ei
+     34178
+     +if .not.boinc
+     34180
+     +ei
+34185
++ei
+
+34455
++if .not.cr
+     34456
+     +if .not.bnlelens
+     34459
+     +ei
+34460
++ei
+
+34507
++if .not.cr
+     34511
+     +if debug
+     34513
+     +ei
+34516
++ei
+
+35818
++if bnlelens
+     35819
+     +if debug
+     35827
+     +ei
+35828
++ei
+
+35868
++if bnlelens
+     35869
+     +if debug
+     35875
+     +ei
+35876
++ei
+
+35883
++if bnlelens
+     35884
+     +if debug
+     35892
+     +ei
+35893
++ei
+
+36188
++if bnlelens
+     36189
+     +if debug
+     36197
+     +ei
+36198
++ei
+
+36217
++if bnlelens
+     36218
+     +if debug
+     36226
+     +ei
+36227
++ei
+
+36519
++if cr
+     36520
+     +if debug
+     36524
+     +ei
+36525
++ei
+
+36948
++if cr
+     36949
+     +if debug
+     36954
+     +ei
+36956
++ei
+
+43374
++if crlibm
+     43381
+     +if cr
+     43386
+     +ei
+     43387
+     +if .not.cr
+     43392
+     +ei
+     43397
+     +if cr
+     43403
+     +ei
+     43404
+     +if .not.cr
+     43410
+     +ei
+43423
++ei
+
+43520
++if crlibm
+     43527
+     +if cr
+     43532
+     +ei
+     43533
+     +if .not.cr
+     43538
+     +ei
+     43543
+     +if cr
+     43549
+     +ei
+     43550
+     +if .not.cr
+     43556
+     +ei
+43573
++ei
+
+43623
++if .not.crlibm
+     43627
+     +if cr
+     43633
+     +ei
+     43634
+     +if .not.cr
+     43639
+     +ei
+43644
++ei
+
+43645
++if crlibm
+     43649
+     +if cr
+     43655
+     +ei
+     43656
+     +if .not.cr
+     43661
+     +ei
+     43671
+     +if cr
+     43676
+     +ei
+     43677
+     +if .not.cr
+     43682
+     +ei
+     43687
+     +if cr
+     43693
+     +ei
+     43694
+     +if .not.cr
+     43700
+     +ei
+43716
++ei
+
+56598
++if debug
+     56599
+     +if .not.nagfor
+     56601
+     +ei
+56602
++ei
+
+57105
++if debug
+     57106
+     +if .not.nagfor
+     57108
+     +ei
+57109
++ei
+
+57998
++if boinc
+     58000
+     +if fio
+     58002
+     +ei
+     58003
+     +if .not.fio
+     58005
+     +ei
+58006
++ei
+
+58007
++if .not.boinc
+     58008
+     +if fio
+     58010
+     +ei
+     58011
+     +if .not.fio
+     58013
+     +ei
+58014
++ei
+
+58015
++if boinc
+     58017
+     +if fio
+     58019
+     +ei
+     58020
+     +if .not.fio
+     58022
+     +ei
+58023
++ei
+
+58024
++if .not.boinc
+     58025
+     +if fio
+     58027
+     +ei
+     58028
+     +if .not.fio
+     58030
+     +ei
+58031
++ei
+
+65958
++if fio
+     65959
+     +if crlibm
+     65961
+     +ei
+     65964
+     +if crlibm
+     65966
+     +ei
+65967
++ei
+
+65968
++if .not.fio
+     65969
+     +if .not.crlibm
+     65971
+     +ei
+     65972
+     +if crlibm
+     66000
+     +ei
+66001
++ei
+
+66027
++if crlibm
+     66030
+     +if boinc
+     66033
+     +ei
+66053
++ei
+
+66054
++if .not.boinc
+     66055
+     +if crlibm
+     66057
+     +ei
+     66058
+     +if .not.crlibm
+     66061
+     +ei
+66064
++ei
+
+66065
++if boinc
+     66067
+     +if crlibm
+     66069
+     +ei
+     66070
+     +if .not.crlibm
+     66074
+     +ei
+66079
++ei
+
+66491
++if debug
+     66492
+     +if bnlelens
+     66507
+     +ei
+66508
++ei
+
+66536
++if bnlelens
+     66542
+     +if .not.boinc
+     66561
+     +ei
+     66562
+     +if boinc
+     66572
+     +ei
+66576
++ei
+
+67110
++if bnlelens
+     67114
+     +if .not.debug
+     67116
+     +ei
+     67120
+     +if .not.debug
+     67122
+     +ei
+67138
++ei
+
+67227
++if bnlelens
+     67228
+     +if debug
+     67245
+     +ei
+67246
++ei
+
+67298
++if bnlelens
+     67302
+     +if .not.debug
+     67304
+     +ei
+     67308
+     +if .not.debug
+     67310
+     +ei
+67326
++ei
+
+67561
++if debug
+     67562
+     +if bnlelens
+     67577
+     +ei
+67578
++ei
+
+67995
++if nagfor
+     67996
+     +if boinc
+          67999
+          +if fio
+          68001
+          +ei
+     68003
+     +ei
+     68004
+     +if .not.boinc
+          68006
+          +if fio
+          68008
+          +ei
+     68010
+     +ei
+68011
++ei
+
+68013
++if .not.nagfor
+     68014
+     +if boinc
+          68016
+          +if fio
+          68019
+          +ei
+          68020
+          +if .not.fio
+          68022
+          +ei
+     68023
+     +ei
+     68024
+     +if .not.boinc
+          68025
+          +if fio
+          68028
+          +ei
+          68029
+          +if .not.fio
+          68031
+          +ei
+     68032
+     +ei
+68033
++ei
+
+68129
++if cr
+     68130
+     +if debug
+     68132
+     +ei
+     68167
+     +if debug
+     68169
+     +ei
+     68170
+     +if boinc
+     68180
+     +ei
+     68187
+     +if debug
+     68189
+     +ei
+     68190
+     +if boinc
+     68200
+     +ei
+68202
++ei
+
+68203
++if .not.cr
+     68206
+     +if debug
+     68208
+     +ei
+68210
++ei
+
+68393
++if debug
+     68424
+     +if collimat
+     68430
+     +ei
+     68432
+     +if bnlelens
+     68434
+     +ei
+     68462
+     +if collimat
+     68468
+     +ei
+     68470
+     +if bnlelens
+     68472
+     +ei
+     68505
+     +if collimat
+     68511
+     +ei
+     68513
+     +if bnlelens
+     68515
+     +ei
+     68535
+     +if bnlelens
+          68555
+          +if collimat
+          68561
+          +ei
+          68563
+          +if bnlelens
+          68565
+          +ei
+     68585
+     +ei
+     68603
+     +if collimat
+     68609
+     +ei
+     68611
+     +if bnlelens
+     68613
+     +ei
+     68675
+     +if collimat
+     68681
+     +ei
+     68683
+     +if bnlelens
+     68685
+     +ei
+     69176
+     +if collimat
+     69182
+     +ei
+     69184
+     +if bnlelens
+     69186
+     +ei
+     69681
+     +if collimat
+     69687
+     +ei
+     69689
+     +if bnlelens
+     69691
+     +ei
+70167
++ei
+
+70169
++if hdf5
+     70211
+     +if debug
+     70213
+     +ei
+     70288
+     +if debug
+     70291
+     +ei
+     70303
+     +if debug
+     70305
+     +ei
+     70307
+     +if debug
+     70311
+     +ei
+70347
++ei
+
+70354
++if beamgas
+     70492
+     +if debug
+     70495
+     +ei
+70978
++ei

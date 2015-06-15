@@ -1,0 +1,13 @@
+Changes by M. Fiascaris (maria.fiascaris@cern.ch) on revistion number 180 (r180 | rdemaria | 2014-08-22 14:02:24 +0200 (Fre, 22 Aug 2014)):
+	* increased nblz from 15000 to 200000 to be able to run for FCC 
+	L168:
+	+if .not.beamgas
+	parameter(nele=5000,nblo=400,nper=16,nelb=140,nblz=200000,         &
+
+	* cleaning inefficiency vs. radial amplitude: increased number of bins (variable "numeff") from 19 to 32:
+	L562
+
+	* introduced cleaning inefficiency vs. dp/p
+
+	* modified output in coll_ellipse.dat (for halo studies on specific collimators): write out dE/E of each particle instead of E
+	
