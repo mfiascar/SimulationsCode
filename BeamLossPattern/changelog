@@ -1,0 +1,4 @@
+Chnages made by Maria Fiascaris:
+	* BeamLossPattern_2005-04-26.cpp: ringLength variable now is read in from the twiss file instead of being hard coded. This is needed to run FCC simulations (ringLength was before set to the LHC length), where the lenght is not yet fixed and may vary with the lattices.
+
+	
